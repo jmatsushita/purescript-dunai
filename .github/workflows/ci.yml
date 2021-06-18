@@ -35,6 +35,9 @@ jobs:
       - name: Install Purescript dependencies
         run: spago install
 
+      - name: Install node deps (manually)
+        run: npm i big-integer
+
       - name: Build the project
         run: spago build
 
