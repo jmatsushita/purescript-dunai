@@ -39,4 +39,4 @@ jobs:
         run: spago build
 
       - name: Run tests
-        run: spago test
+        run: spago test --no-install
